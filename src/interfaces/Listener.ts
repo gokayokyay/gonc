@@ -1,1 +1,1 @@
-export interface IListener extends CallableFunction {};
+export interface IListener extends CallableFunction {}

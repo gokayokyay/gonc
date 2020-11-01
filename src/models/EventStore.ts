@@ -20,7 +20,7 @@ export default class EventStore {
     this.addHistory({ event, data });
     const fns = this.listeners[event];
     if (!fns) return false;
-    fns.forEach(fn => data ? fn(data) : fn());
+    fns.forEach(fn => (data ? fn(data) : fn()));
     return true;
   }
 
