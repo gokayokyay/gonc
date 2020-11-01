@@ -31,16 +31,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "global-store",
+  "name": "gonc",
   "author": "Gökay Okyay",
-  "module": "dist/global-store.esm.js",
+  "module": "dist/gonc.esm.js",
   "size-limit": [
     {
-      "path": "dist/global-store.cjs.production.min.js",
+      "path": "dist/gonc.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/global-store.esm.js",
+      "path": "dist/gonc.esm.js",
       "limit": "10 KB"
     }
   ],
